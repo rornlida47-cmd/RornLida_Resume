@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rorn Lida </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1a1a1a;
+            background-color: #f8fafc;
+        }
+        .text-section-green {
+            color: #1a8027;
+        }
+        .text-blue-header {
+            color: #0b1ec2;
+        }
+        /* Print settings for A4 page alignment */
+        @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            body {
+                background-color: #ffffff !important;
+                padding: 0 !important;
+            }
+            main {
+                box-shadow: none !important;
+                border: none !important;
+                border-radius: 0 !important;
+                max-width: 100% !important;
+                width: 210mm !important;
+                min-height: 297mm !important;
+                padding: 12mm 15mm !important;
+            }
+        }
+    </style>
+</head>
+<body class="py-6 px-4 sm:px-8 flex justify-center">
+
+    <main class="w-full max-w-3xl bg-white p-8 shadow-sm rounded-md border border-gray-100">
+        
+        <!-- Header Name Section -->
+        <header class="mb-3">
+            <h1 class="text-3xl font-extrabold text-black tracking-tight mb-2">
+                Rorn Lida
+            </h1>
+            <hr class="border-t border-gray-300 w-full mb-4" />
+        </header>
+
+        <!-- Contact & Photo Section -->
+        <section class="grid grid-cols-2 gap-4 items-start mb-4">
+            <!-- Left Side: Title & Contact Info -->
+            <div class="space-y-2">
+                <h2 class="text-xl font-bold text-section-green">
+                    Junior Frontend Developer
+                </h2>
+                
+                <address class="not-italic text-gray-800 text-sm leading-snug space-y-0.5">
+                    <p>#E1, St.1003</p>
+                    <p>Phnom Penh Thmey, </p>
+                    <p>Sensok, Phnom Penh, Cambodia</p>
+                    <p class="pt-1">067 230 395</p>
+                    <p>rorn.lida.1224@rupp.edu.kh</p>
+                </address>
+            </div>
+
+            <!-- Right Side: Photo -->
+            <div class="flex justify-end">
+                <div class="w-32 h-40 flex-shrink-0 border border-gray-100 square-lg overflow-hidden bg-gray-50">
+                    <img src="photo_2026-09-24_00-06-12.jpg" alt="Profile Photo" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-4">
+            <h2 class="text-lg font-bold text-section-green mb-1">
+                Skills
+            </h2>
+            <p class="text-gray-900 text-sm leading-relaxed">
+                Basic Java, C, C++, Python and SQL database fundamentals, HTML, CSS, JavaScript, Microsoft Word, Excel, PowerPoint, and basic cloud computing knowledge.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-4">
+            <h2 class="text-lg font-bold text-section-green mb-1">
+                Education
+            </h2>
+            
+            <div class="space-y-0.5">
+                <h3 class="text-base font-bold text-blue-header">
+                    RUPP, Phnom Penh - Bachelor of Science in Computer Science
+                </h3>
+                <p class="text-gray-600 text-xs font-medium">
+                    2025 - Present
+                </p>
+                <p class="text-gray-800 text-sm pt-0.5">
+                    Certifications: HCIA-Cloud Computing v5.5 - Huawei Academy (2026)
+                </p>
+            </div>
+        </section>
+
+        <!-- Academic Projects Section -->
+        <section class="mb-4">
+            <h2 class="text-lg font-bold text-section-green mb-2">
+                ACADEMIC PROJECTS
+            </h2>
+            
+            <div class="mb-3 space-y-0.5">
+                <h3 class="text-base font-bold text-blue-header">
+                    Arduino Self Driving with obstacle avoidance Project - Computer Architecture Course
+                </h3>
+                <p class="text-gray-600 text-xs font-medium">
+                    2024 - 2025
+                </p>
+                <ul class="list-disc list-inside space-y-0.5 text-gray-800 text-sm pl-1">
+                    <li>Technical Skills: C/C++ embedded programming, circuit wiring, and sensor-motor integration.</li>
+                    <li>Robotics Concepts: Hands-on experience with autonomous control loops and system debugging.</li>
+                </ul>
+            </div>
+
+            <div class="space-y-0.5">
+                <h3 class="text-base font-bold text-blue-header">
+                    Employee Management System project - Information System Development Course
+                </h3>
+                <p class="text-gray-600 text-xs font-medium">
+                    2025 - 2026
+                </p>
+                <ul class="list-disc list-inside space-y-0.5 text-gray-800 text-sm pl-1">
+                    <li>Technical Skills: C/C++ programming, database design, and user interface development.</li>
+                    <li>Project Management: Experience in planning, executing, and delivering software projects on time.</li>
+                    <li>Team Collaboration: Strong communication and teamwork skills developed through group assignments.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="mb-4">
+            <h2 class="text-lg font-bold text-section-green mb-1">
+                Languages
+            </h2>
+            
+            <ul class="list-disc list-inside space-y-0.5 text-gray-800 text-sm pl-1">
+                <li>Khmer: Mother tongue</li>
+                <li>English: Good (Focusing on Academic Reading and Writing)</li>
+            </ul>
+        </section>
+
+        <!-- Other Skills Section -->
+        <section class="mb-5">
+            <h2 class="text-lg font-bold text-section-green mb-1">
+                Other Skills
+            </h2>
+            
+            <ul class="list-disc list-inside space-y-0.5 text-gray-800 text-sm pl-1">
+                <li>Honest and trustworthy</li>
+                <li>Good communication skills</li>
+                <li>Strong problem-solving abilities</li>
+                <li>Ability to work well under pressure</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="pt-2 border-t border-gray-300">
+            <p class="text-gray-600 text-xs">
+                &copy; 2026 Rorn Lida. All rights reserved.
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
